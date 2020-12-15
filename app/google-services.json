@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "891489525904",
+    "project_id": "mychatapp-802b1",
+    "storage_bucket": "mychatapp-802b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891489525904:android:2f220139dafc9c97603815",
+        "android_client_info": {
+          "package_name": "com.oreini.mychatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891489525904-8be7baoe3hqodu6n7raglafmk6vmd5og.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJAiTmD8t4dmAPRjHYI1ao4T5UcmQ9Dok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891489525904-8be7baoe3hqodu6n7raglafmk6vmd5og.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
