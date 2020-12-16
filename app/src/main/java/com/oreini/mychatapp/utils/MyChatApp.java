@@ -18,9 +18,14 @@ public class MyChatApp extends Application {
         super.onCreate();
 
         mContext = getApplicationContext();
+<<<<<<< Updated upstream
 
         mSharedPrefsManager = SharedPrefsManager.getInstance(mContext);
       //  mFirebaseManager = FirebaseManager.getInstance(mContext);
+=======
+        mSharedPrefsManager = SharedPrefsManager.getInstance(mContext);
+        mFirebaseManager = FirebaseManager.getInstance(mContext);
+>>>>>>> Stashed changes
     }
 
 }
