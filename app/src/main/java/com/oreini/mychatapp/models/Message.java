@@ -1,28 +1,34 @@
 package com.oreini.mychatapp.models;
 
+import java.util.Date;
+
 public class Message {
 
-    private int mWriterID;
+    private User mAuthor;
     private String mMessage;
-    private long mTimestamp;
+    private Date mTimestamp;
 
 
-    public Message(int writer_id, String message) {
+    public Message(User author, String message) {
 
-        mWriterID = writer_id;
+        mAuthor = author;
         mMessage = message;
-        mTimestamp = System.currentTimeMillis();
+        mTimestamp = new Date();
     }
 
-    public int getWriterID() {
-        return mWriterID;
+    public User getAuthor() {
+        return mAuthor;
+    }
+
+    public String getMessage() {
+        return mMessage;
     }
 
     public void setMessage(String mMessage) {
         this.mMessage = mMessage;
     }
 
-    public long getTimestamp() {
+    public Date getTimestamp() {
         return mTimestamp;
     }
 }

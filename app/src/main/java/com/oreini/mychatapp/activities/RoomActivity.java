@@ -96,6 +96,8 @@ public class RoomActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 goToChatActivity();
+
+                etRoomID.setText("");
             }
         });
     }
@@ -118,7 +120,6 @@ public class RoomActivity extends AppCompatActivity {
     }
 
     private void goToChatActivity() {
-
         Intent i = new Intent(this,ChatActivity.class);
         startActivity(i);
     }

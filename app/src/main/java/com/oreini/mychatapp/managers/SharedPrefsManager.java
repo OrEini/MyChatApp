@@ -51,6 +51,13 @@ public class SharedPrefsManager {
         editor.commit();
     }
 
+    public User getUser() {
+
+        String userName = mSharedPrefs.getString("user_name", null);
+
+        return new User(userName);
+    }
+
     public String getUserID() {
 
         return mSharedPrefs.getString("user_id", null);

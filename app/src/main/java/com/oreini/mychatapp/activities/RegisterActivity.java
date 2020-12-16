@@ -56,6 +56,12 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void setViews() {
+
+        if (mSharedPrefsManager.isAlreadyRegistered()) {
+            goToRoomActivity();
+            finish();
+        }
+
         disableRegisterButton();
     }
 
@@ -96,6 +102,8 @@ public class RegisterActivity extends AppCompatActivity {
                 mSharedPrefsManager.setAlreadyRegistered(true);
 
                 goToRoomActivity();
+
+                etUserName.setText("");
             }
         });
     }

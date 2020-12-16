@@ -9,4 +9,6 @@
     <color name="darkGray">#444041</color>
     <color name="lightGray">#9E9393</color>
     <color name="pressed_bg">#4460d0</color>
+    <color name="recevied_bg">#01E0B1</color>
+    <color name="sent_bg">#4460d0</color>
 </resources>

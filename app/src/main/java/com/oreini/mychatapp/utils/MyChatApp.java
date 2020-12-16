@@ -20,7 +20,7 @@ public class MyChatApp extends Application {
         mContext = getApplicationContext();
 
         mSharedPrefsManager = SharedPrefsManager.getInstance(mContext);
-        mFirebaseManager = FirebaseManager.getInstance(mContext);
+      //  mFirebaseManager = FirebaseManager.getInstance(mContext);
     }
 
 }

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rlLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="3dp"
+        android:background="@drawable/bg_recevied_message">
+
+        <TextView
+            android:id="@+id/tvAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Or Aini"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="The message is here"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@+id/tvAuthor"
+            android:layout_toLeftOf="@+id/tvTime"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="20:31"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
